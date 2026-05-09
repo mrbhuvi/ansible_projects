@@ -1,0 +1,22 @@
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive files
+*.tfvars
+*.pem
+*.key
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# VS Code
+.vscode/
+
+# Mac/Linux files
+.DS_Store
+
+# Logs
+*.log
